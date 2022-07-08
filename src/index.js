@@ -78,6 +78,7 @@ function createCountryList(countries) {
 }
 
 function clearInput() {
+    refs.countryList.innerHTML = "";
     refs.countryInfoContainer.innerHTML = "";
 }
 
